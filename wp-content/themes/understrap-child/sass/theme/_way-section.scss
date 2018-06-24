@@ -1,0 +1,71 @@
+//------------------Way Section Style----------------------------
+
+.way-image {
+	img {
+		width: 70%;
+	}
+}
+
+.on-boarding-process {
+	font-size: 2.4rem;
+	font-weight: 700;
+	color: $title-color;
+}
+
+.process-section {
+	background-color: $white-color;
+}
+
+.process-item {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	border-bottom: 1px solid $process-li-border;
+}
+.process-icon {
+	height: 9rem;
+	width: auto;
+}
+
+.process-name {
+	padding-top: 3rem;
+	font-size: 2rem;
+}
+
+.process-description {
+	width: 80%;
+	margin: auto;
+	li {
+		list-style: disc;
+		font-size: 1.8rem;
+		line-height: 1.67;
+		color: $text-color;
+		text-align: left;
+	}
+}
+
+@media (min-width: 768px) {
+	.process-item {
+		border-right: 1px solid $process-li-border;
+	}
+	.process-section {
+	padding: 0 1.5rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	.process-item {
+		padding-top: 7rem;
+		padding-bottom: 7rem;
+		border-bottom: none;
+	}
+	.process-name {
+		padding-top: 10rem;
+		font-size: 2.4rem;
+	}
+	.process-description {
+		width: 50%;
+	}
+	.process-section {
+	padding: 0;
+	}
+}

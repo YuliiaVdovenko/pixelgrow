@@ -1,0 +1,131 @@
+html {
+	font-size: 10px;
+}
+
+body {
+	font-family: $mainfont;
+	overflow-x: hidden;
+}
+
+h1 {
+	margin: 0;
+}
+
+span, p, h2, h3, h4, h5, i, time, address {
+	font-weight: 400;
+	font-size: 1rem;
+	margin: 0;
+	padding: 0;
+	color: $text-color;
+}
+
+a:link, a:visited, a:hover {
+	text-decoration: none;
+	font-size: 1rem;
+	margin: 0;
+	line-height: 1.5rem;
+	color: $text-color;
+}
+
+li{
+	list-style-type:none;
+}
+ul, ol {
+	padding: 0;
+	margin: 0;
+}
+
+
+.wrapper-section{
+	max-width: 192rem;
+	padding: 0 1.5rem;
+	@media (min-width: 768px) {
+		padding: 0 3rem;
+	}
+	@media (min-width: 1920px) {
+		padding: 0 9rem;
+	}
+}
+
+.main-button {
+	background-color: $effect-color;
+	border-radius: 0.4rem;
+	color: $button-color;
+	font-weight: 900;
+	font-size: 1.2rem;
+	@media (min-width: 992px) {
+		font-size: 1.6rem;
+	}
+	@media (min-width: 1200px) {
+		font-size: 1.8rem;
+	}
+}
+
+.section-title {
+	font-size: 3rem;
+	font-weight: 700;
+	line-height: 1.13;
+	color: $title-color;
+	padding-bottom: 3rem;
+	@media (min-width: 768px) {
+		font-size: 3.5rem;
+	}
+	@media (min-width: 1200px) {
+		font-size: 3.8rem;
+	}
+	@media (min-width: 1920px) {
+		font-size: 4.8rem;
+	}
+}
+
+.section-description {
+	font-size: 2rem;
+	line-height: 1.5;
+	@media (min-width: 768px) {
+		line-height: 1.8;
+	}
+}
+.section-p {
+	font-size: 1.6rem;
+	line-height: 1.63;
+}
+
+.section-subtitle {
+	font-size: 2.4rem;
+	line-height: 1.5;
+	color: $title-color;
+	font-weight: 700;
+	@media (min-width: 1200px) {
+		padding-bottom: 2rem;
+	}
+}
+
+.padding-bottom {
+	padding-bottom: 3rem;
+	@media (min-width: 768px) {
+		padding-bottom: 5rem;
+	}
+}
+
+.padding-top {
+	padding-top: 3rem;
+	@media (min-width: 768px) {
+		padding-top: 5rem;
+	}
+}
+
+.white-back {
+	background-color: $white-color;
+}
+
+.light-back {
+	background-color: $section-back-color;
+}
+
+.primary-back {
+	background-image: linear-gradient(284deg, $subcolor, $primary);
+}
+
+.dark-back {
+	background-color: $section-back-darc-color;
+}

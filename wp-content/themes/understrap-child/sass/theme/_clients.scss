@@ -1,0 +1,44 @@
+//------------------Clients Section Style----------------------------
+.clients-says {
+	p {
+		font-size: 2rem;
+		color: $title-color;
+		line-height: 1.5;
+		@media (min-width: 768px) {
+			line-height: 1.8;
+		}
+	}
+}
+
+.clients-photo {
+	img {
+		width: 5rem;
+		height: auto;
+	}
+}
+
+.client-name {
+	font-size: 1.6rem;
+	color: $title-color;
+	line-height: 1.13;
+	font-weight: 700;
+}
+
+.client-position {
+	font-size: 1.4rem;
+	line-height: 1.29;
+	color: $client-position;
+}
+
+.home-indicators {
+	bottom: 0;
+	li {
+		width: 5rem;
+		margin: 0 1rem;
+		background-color: #e0e0e0;
+	}
+	li.active {
+		background-color: $effect-color;
+		width: 5rem;
+	}
+}

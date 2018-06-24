@@ -1,0 +1,9 @@
+//------------------About Section Style----------------------------
+
+.team-button:link, .team-button:visited {
+	font-size: 1.4rem;
+	font-weight: 700;
+	line-height: 1.43;
+	color: $button-color;
+	border-bottom: 0.2rem solid $button-color;
+}

@@ -1,0 +1,68 @@
+//------------------Welcome Section Style----------------------------
+
+.welcome-back {
+	background-size: 35rem;
+}
+
+.welcome-title {
+	font-size: 3rem;
+	font-weight: 900;
+	line-height: 1.31;
+	color: $white-color;
+	padding-top: 5rem;
+	&:after {
+		content: "";
+		display: block;
+		height: 0.3rem;
+		width: 18rem;
+		margin-top: 0.5rem;
+		background-color: $effect-color;
+	}
+}
+
+
+.welcome-description {
+	max-width: 40rem;
+	color: $white-color;
+}
+
+.add-text:link, .add-text:visited {
+	font-size: 1.6rem;
+	color: $white-color;
+	display: inline-block;
+}
+
+.clients-link {
+	img {
+		filter: brightness(10);
+	}
+}
+
+.border-top {
+	border-top: 0.1rem solid $white-color;
+}
+
+
+@media (min-width: 768px) {
+	.welcome-title {
+		font-size: 4rem;
+	}
+}
+
+@media (min-width: 992px) {
+	.welcome-title {
+		font-size: 5rem;
+		padding-top: 0;
+		&:after {
+			height: 0.5rem;
+		}
+	}
+}
+@media (min-width: 1200px) {
+	.welcome-title {
+		font-size: 6.4rem;
+		&:after {
+			height: 0.8rem;
+		}
+	}
+}

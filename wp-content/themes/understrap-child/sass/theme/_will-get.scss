@@ -1,0 +1,26 @@
+//------------------Will Get Section Style----------------------------
+
+.will-section {
+	background-image: linear-gradient(315deg, #8740d4, #4544be 52%, #3145b3 76%, #1e47a9);
+}
+
+.get-list-item {
+	padding: 3rem 2rem;
+	background-color: $white-color;
+	box-shadow: 0 1rem 3rem 0 $box-shadow;
+	border-radius: 0.4rem;
+	@media (min-width: 768px) {
+		padding: 4rem 3rem;
+	}
+	@media (min-width: 992px) {
+		padding: 5rem;
+	}
+}
+
+.will-get-image {
+	height: 9.4rem;
+	width: auto;
+}
+
+
+

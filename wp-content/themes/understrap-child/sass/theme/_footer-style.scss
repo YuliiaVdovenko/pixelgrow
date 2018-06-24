@@ -1,0 +1,31 @@
+//------------------Footer Style----------------------------
+
+.footer-brand {
+	img {
+		width: 70%;
+		opacity: 0.5;
+	}
+}
+
+.footer-copyright {
+	span, time {
+		font-size: 1.4rem;
+		color: $white-color;
+		opacity: 0.5;
+		line-height: 1.43;
+	}
+}
+
+.before:before {
+	content: "\2013";
+	opacity: 0.5;
+}
+
+address {
+	span {
+		font-size: 1.8rem;
+		line-height: 1.67;
+		color: $white-color;
+		opacity: 0.5;
+	}
+}

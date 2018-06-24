@@ -1,0 +1,15 @@
+//------------------Improvement Section Style----------------------------
+
+.improvements-item:before {
+		content: "";
+		display: block;
+		height: 0.4rem;
+		width: 3rem;
+		background-color: $effect-color;
+		margin-bottom: 1rem;
+		@media (min-width: 1200px) {
+		margin-bottom: 2rem;
+	}
+}
+
+

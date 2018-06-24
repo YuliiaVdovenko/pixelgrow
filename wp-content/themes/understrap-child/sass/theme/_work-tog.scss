@@ -1,0 +1,86 @@
+//------------------Work together Section Style----------------------------
+
+.wpcf7 {
+	width: 100%;
+	margin: 0!important;
+	@media (min-width: 768px) {
+		width: 70%;
+	}
+	textarea {
+		height: 8rem;
+	}
+	input[type=text], input[type=email], textarea, input[type="tel"] {
+		width: 100%;
+		color: $text-color;
+		border: solid 1px $form-border;
+		padding: 1rem;
+		border-radius: 0.4rem;
+		margin-bottom: 2rem;
+	}
+	input[type=text]:focus, input[type=email]:focus, textarea:focus, input[type="tel"]:focus {
+		border: solid 1px $form-border;
+		transition: none !important;
+		box-shadow: none;
+		outline: 0;
+	}
+	input[type=text]:active, input[type=email]:active, textarea:active, input[type="tel"]:active {
+		border: solid 1px $form-border;
+		background-color: transparent;
+		border-bottom: 1px solid $primary;
+		transition: none !important;
+		box-shadow: none;
+		outline: 0;
+	}
+	.wpcf7-not-valid-tip {
+		font-size: 1rem;
+		padding: 0.2rem 1rem;
+	}
+	.wpcf7-response-output {
+		margin: 0;
+		background-color: transparent;
+		border: none;
+	}
+	.wpcf7-form p {
+		display: inline-block;
+		text-align: right;
+		margin-bottom: 0;
+	}
+	input[type=submit] {
+		background-color: $effect-color;
+		color: $primary;
+		cursor: pointer;
+		padding: 1rem 2rem;
+		border: none;
+		margin-top:1rem;
+		font-size: 1.8rem;
+		&:hover {
+			background-color: $primary;
+			color: $white;
+			cursor: pointer;
+		}
+		&:focus {
+			background-color: $primary;
+			color: $white;
+			border-bottom: 1px solid $white;
+			box-shadow: none;
+		}
+		&:active {
+			box-shadow: none !important;
+			background-color: $primary !important;
+			border: none !important;
+			border-bottom: 1px solid $white !important;
+		}
+	}
+}
+
+.form-label {
+	font-size: 1.4rem;
+	color: $title-color;
+	font-weight: 700;
+}
+
+.label-span {
+	@extend .form-label;
+	font-weight: 400;
+	color: $text-color;
+}

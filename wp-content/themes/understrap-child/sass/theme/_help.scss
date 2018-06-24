@@ -1,0 +1,19 @@
+//------------------Help Section Style----------------------------
+
+
+.help-item {
+	border-top: 1px solid $border-color;
+	padding-top: 1rem;
+	@media (min-width: 1200px) {
+		padding-top: 3rem;
+	}
+}
+
+.help-list:before {
+	content: "";
+	display: block;
+	height: 0.4rem;
+	width: 10rem;
+	background-color: $effect-color;
+}
+
